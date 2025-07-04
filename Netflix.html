@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        position: relative;
+        width:100%;
+        height: 100vh;
+    }
+    .main img{
+        width:100%;
+        height: 100%; 
+    }
+    .s1{
+        position: absolute;
+        top:10px;
+        left:15px;
+    }
+    .s1 img{
+        width:10;
+        height:50px;
+    }
+    .s2{
+        position: absolute;
+        top:175px;
+        left:450px;
+        color: azure;
+        font-size: large;
+        text-align: center;
+}
+.s2 h1 p{
+    margin: 15px;
+
+}
+.s3{
+    position: absolute;
+    top:400px;
+    left:500px; 
+}
+.s3 input{
+    width:250px;
+    height:30px;
+    background-color: rgb(77, 76, 76,0.5);
+    color: white;
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+.s3placeholder{
+    font-size: large;
+    color:azure;
+    padding: 20px;
+}
+.s3 button{
+    width:200px;
+    height:35px;
+    background-color:red;
+    color: white;
+    font-size: large;
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+.s4{
+    position: absolute;
+    top:55px;
+    right:100px;  
+}
+.s4 select{
+    width:100px;
+    height:25px;
+    background-color:red;
+    color: white;
+    font-size: large;
+    border: 2px solid silver;
+    border-radius: 10px;
+} 
+.s4 button{
+    width:100px;
+    height:25px;
+    background-color:rgb(37, 37, 37,0.5);
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+}
+.main2{
+    background-color: black;
+    width: 100px;
+}
+.m1{
+    position: relative;
+    width:70%;
+    background-color: rgb(120, 26, 207,0.5);
+    color: azure;
+    font-size: x-large;
+    border-radius: 5px;
+    left: 15px;
+    top: 40px;
+    transition:transform 0.33 ease;
+}
+.m1:hover{
+    transform: scale(1.1);
+}
+.m11{
+    position: absolute;
+    left: 0px; 
+}
+.m11 img{
+    width: 70px;
+}
+.m12{
+    position: absolute;
+    left: 100px;
+}
+.m13{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.m13 button{
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    color: azure;
+    border-radius: 10px;
+}
+.m2{
+    position: relative;
+    width: 70px;
+    left: 15px;
+}
+.r1{
+    position: relative;
+}
+.r11{
+    position: absolute;
+}
+.r11 img{
+    width: 100px;
+    top: 110px;
+    right: 80px;
+}
+.m2 td{
+    padding: 50px;
+}
+</style>
+<body>
+    <div class="main">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1280,h_720,q_75,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs" brightness="85%">
+        <div class="s1">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12c6f684-d447-4457-84fa-12033cfd581e/d9z3o32-2c299a83-49a9-44c2-bc23-b0b5070a546b.png/v1/fill/w_1024,h_512/netflix_logo_background__2_by_sixmonthslate_d9z3o32-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvMTJjNmY2ODQtZDQ0Ny00NDU3LTg0ZmEtMTIwMzNjZmQ1ODFlXC9kOXozbzMyLTJjMjk5YTgzLTQ5YTktNDRjMi1iYzIzLWIwYjUwNzBhNTQ2Yi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6zkuGxrrJ3QRYv3fKY-f41jZnol8b15S3jeHnXeRvnQ" alt="">
+         </div>
+         <div class="s2">
+            <h1>Unlimited Movies</h1>
+            <h1>TV Show and more</h1>
+            <p>Starts at $149 Cancel anytime</p>
+            <p>subscription video on demand over the top straming serive</p>
+        </div>
+        <div class="s3">
+            <table>
+                <tr>
+                    <td><input type="email" placeholder="Email"></td>
+                    <td><button>Get Started</button></td>
+                </tr>
+            </table>
+        </div>
+    <div class="s4">
+        <table>
+            <tr>
+                <td>
+                    <select name="" id="">
+                        <option value="">English</option>
+                        <option value="">Tamil</option>
+                        <option value="">Hindi</option>
+                    </select>
+                </td>
+                <td><button>Sign in</button></td>
+            </tr>
+        </table>
+
+    </div> 
+</div>
+<div class="main2">
+    <div class="m1">
+        <div class="m11">
+            <img src="popcorn" alt="">
+        </div>
+        <div class="m12">
+            <h2>The Netflix youfor just USBou love 99</h2>
+            <p>Get our most afforable avert supported plan</p>
+        </div>
+
+    </div>
+    <div class="m13">
+        <button>Learn more</button>
+    </div>
+</div>
+<div class="m2">
+    <table>
+</div>
+<tr>
+    <td>
+        <div class="r1"></td>
+            <img src="" alt="">
+          
+          <div class="r1"></td>
+            <img src="" alt="">
+          
+          <div class="r1"></td>
+            <img src="" alt="">
+          
+          <div class="r1"></td>
+            <img src="" alt="">
+          </div>
+        </div>
+    </div>
+</div>
+</table>
+</tr>
+</body>
+</html>
